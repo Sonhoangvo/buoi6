@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.home_container{
+    display: flex;
+}
+.inside{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container_left{
+    width: 1000px;
+    height: 500px;
+    background-color: beige;
+    margin: 150px 300px ;
+    border: solid black 20px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+.container_left .item{
+    height: 150px;
+    width: 250px;
+    background-color: lightcoral;
+    margin: 20px;
+    display: flex;
+}
+.container_left .item img{
+    height: 100px;
+    width: 100px;
+}
+
+
+.container_right{
+    height: 500px;
+    width: 300px;
+    background-color:bisque;
+    margin-top: 150px;
+    margin-right: 70px;
+}
+
+
